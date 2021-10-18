@@ -1819,6 +1819,9 @@ div:hover > .btn-reverse-bg-green {
   .clients-item:hover .hover {
     opacity: 1; }
   .clients-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
     position: relative;
     transition: all .3s linear;
     transform-style: preserve-3d; }
@@ -1829,6 +1832,8 @@ div:hover > .btn-reverse-bg-green {
       opacity: 0;
       z-index: 5; }
   .clients-item .clients-images {
+    width: 140px;
+    height: 46px;
     position: relative;
     display: block;
     margin: auto; }
@@ -4852,7 +4857,9 @@ body.overlay-enable {
     border-radius: 2em;
     padding: 1.15em 1em;
     box-shadow: inset 0 2px 0 rgba(0, 0, 0, 0.2), 0 2px 0 rgba(255, 255, 255, 0.7);
-    transition: color 0.3s ease, padding 0.3s ease-in-out, background 0.3s ease-in-out; }
+    transition: color 0.3s ease,
+ padding 0.3s ease-in-out,
+ background 0.3s ease-in-out; }
     .tgl span:before {
       position: relative;
       display: block;

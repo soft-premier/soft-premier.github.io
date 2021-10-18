@@ -37,9 +37,16 @@
   }
 
   .clients-images {
+    max-height: 46px;
+    max-width: 140px;
     position: relative;
     display: block;
     margin: auto;
+    
+    img {
+      width: 100%;
+      height: auto;
+    }
   }
 }
 
