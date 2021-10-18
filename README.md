@@ -1,2 +1,2 @@
-# koritsuki-web
- Koritsuki Entertainment Website Homepage
+# Soft Premier Chain Organization Website
+ The Group of Developers
